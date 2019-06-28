@@ -12,3 +12,4 @@ themes/
 articles.inkeast.com/
 index.inkeast.com/
 posts_source/
+*.sh
