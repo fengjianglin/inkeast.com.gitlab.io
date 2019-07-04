@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+    <!--Setting-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="apple-mobile-web-app-capable" content="Ink East">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="theme-version" content="1.2.3">
+    <meta name="root" content="/">
+    <link rel="dns-prefetch" href="https://inkeast.com">
+    <!--SEO-->
+
+    <meta name="keywords" content="Wu Dong Qian Kun English version,武动乾坤英文版,武动乾坤">
+
+
+    <meta name="description" content=" Wu Dong Qian Kun
+ 
+ Hi everyone! &nbsp;It's not been too long since we launched our last novel, ...">
+
+
+
+<meta name="robots" content="all">
+<meta name="google" content="all">
+<meta name="googlebot" content="all">
+<meta name="verify" content="all">
+
+    <!--Title-->
+
+
+<title>Chapter 148: Pointers | Ink East</title>
+
+
+    <link rel="alternate" href="/atom.xml" title="Ink East" type="application/atom+xml">
+
+
+    <link rel="icon" href="/favicon.ico">
+
+    
+
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css?rev=3.3.7">
+<link rel="stylesheet" href="/css/font-awesome.min.css?rev=4.5.0">
+<link rel="stylesheet" href="/css/style.css?rev=@@hash">
+
+
+
+
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?02ce45bbe83f1543202d6a321c5ea0d1";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+
+    
+
+
+    <!-- google adsense start -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8889449066804352",
+        enable_page_level_ads: true
+      });
+    </script>
+    <!-- google adsense end -->
+
+
+</head>
+
+</html>
+<!--[if lte IE 8]>
+<style>
+    html{ font-size: 1em }
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<div style="ie">你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。</div>
+<![endif]-->
+
+<body>
+    <!--
+<header class="main-header"  style="background-image:url(http://snippet.shenliyang.com/img/banner.jpg)"  >
+    <div class="main-header-box">
+        <a class="header-avatar" href="/" title=''>
+            <img src="/img/avatar.jpg" alt="logo头像" class="img-responsive center-block">
+        </a>
+        <div class="branding">
+            
+                 <img src="/img/branding.png" alt="Snippet 博客主题" class="img-responsive center-block">
+            
+    	</div>
+    </div>
+</header>
+
+-->
+
+    <nav class="main-navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header"><span class="nav-toggle-button collapsed pull-right" data-toggle="collapse" data-target="#main-menu" id="mnav">
+                    <span class="sr-only"></span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                    <a class="navbar-brand" href="https://inkeast.com">Ink East</a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="menu">
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/"><i class="fa "></i>Home</a>
+                            </li>
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/categories/novel/"><i class="fa "></i>Novel</a>
+                            </li>
+                        
+                            <li role="presentation" class="text-center">
+                                <a href="/archives/"><i class="fa "></i>Timeline</a>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="Chapter 148: Pointers">
+            
+	            Chapter 148: Pointers
+            
+        </h1>
+        <div class="post-meta">
+    
+        <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+            <a class="category-link" href="/categories/novel/">Novel</a>
+        </span>
+    
+
+    
+        <span class="fa-wrap">
+            <i class="fa fa-tags"></i>
+            <span class="tags-meta">
+                
+                    <a class="tag-link" href="/tags/wu-dong-qian-kun/">Wu Dong Qian Kun</a>
+                
+            </span>
+        </span>
+    
+
+    
+        
+        <span class="fa-wrap">
+            <i class="fa fa-clock-o"></i>
+            <span class="date-meta">2019/08/05</span>
+        </span>
+        
+    
+</div>
+            
+            
+    </div>
+    
+    <div class="post-body post-content">
+        <p> <strong><a href="/novel/wu-dong-qian-kun/">Wu Dong Qian Kun</a></strong></p>
+<div class="fr-view panel-body"> 
+ <p>Hi everyone! &nbsp;It's not been too long since we launched our last novel, but now we come with yet another excellent one, with a new translator to boot - <a href="https://www.wuxiaworld.com/novel/heavens-devourer" target="_blank" rel="noopener">Heaven's Devourer</a>, translated by Midasthefloof! &nbsp;Midas is actually a veteran translator, having done over a thousand chapters elsewhere with other teams, and I'm very excited to have him start on Wuxiaworld with us! &nbsp;As for the novel, <a href="https://www.wuxiaworld.com/novel/heavens-devourer" target="_blank" rel="noopener">Heaven's Devourer</a>, it's actually a bit different from the others. &nbsp;For fans of 'Journey to the West', also known as the legends...</p> 
+ <p> <a href="/announcement/heaven-s-devourer-out-of-sneak-peek-welcome-midasthehoof-to-wuxiaworld">Read More...</a> </p> 
+</div>
+<div id="announcement-body-78443" class="fr-view panel-body hidden"> 
+ <p>Hi everyone! &nbsp;It's not been too long since we launched our last novel, but now we come with yet another excellent one, with a new translator to boot - <a href="https://www.wuxiaworld.com/novel/heavens-devourer" target="_blank" rel="noopener">Heaven's Devourer</a>, translated by Midasthefloof! &nbsp;Midas is actually a veteran translator, having done over a thousand chapters elsewhere with other teams, and I'm very excited to have him start on Wuxiaworld with us! &nbsp;As for the novel, <a href="https://www.wuxiaworld.com/novel/heavens-devourer" target="_blank" rel="noopener">Heaven's Devourer</a>, it's actually a bit different from the others. &nbsp;For fans of 'Journey to the West', also known as the legends...</p> 
+ <p> <a href="/announcement/heaven-s-devourer-out-of-sneak-peek-welcome-midasthehoof-to-wuxiaworld">Read More...</a> </p> 
+</div>
+<div class="fr-view"> 
+ <p><strong>Chapter 148: Pointers</strong></p>
+ <p>The sudden arrival of this chuckle was especially ear-piercing within the tense atmosphere. Thus, when that figure appeared, numerous gazes were immediately cast towards it.</p>
+ <p>“Lin Dong?!”</p>
+ <p>When these gazes saw the young figure that had arrived in front of Lin Zhentian and the rest, they were all stumped. Soon after, whispers broke out. Over this period of time, because Lin Dong had killed Wei Tong, his reputation in Yan City was rather good. Everyone knew that the strongest member within the Lin Family was not Lin Zhentian, but this youngster who was not even twenty years of age!</p>
+ <p>“Dong-er!”</p>
+ <p>Upon seeing Lin Dong make an appearance at this time, Lin Zhentian, Lin Xiao and the rest were delighted. Unwittingly, the weight this youngster before them had in their hearts had become heavier and heavier.</p>
+ <p>“Father, are you alright?” Lin Dong ignored the numerous gazes as his eyes turned back towards Lin Xiao. The latter’s complexion was indeed a little pale, immediately, a chill surfaced in Lin Dong’s eyes.</p>
+ <p>“It’s not too bad.” Lin Xiao shook his head as he sighed: “It’s good that you’re back, over this period of time, many things have happened.”</p>
+ <p>“I know, leave it to me.” Lin Dong lightly nodded his head as he said: “Was it Gui Yan who injured you?”</p>
+ <p>Lin Xiao gave a pained smile as he nodded his head.</p>
+ <p>“You brat, I even thought that you had went missing!” To one side, Xuan Su also swiftly walked over as she rolled her eyes at Lin Dong, a little miffed as she exclaimed.</p>
+ <p>“Many thanks to big sister Su and chairman Xia.” Lin Dong respectfully clasped his hands towards Xuan Su and Xia Wanjin as he thanked them.</p>
+ <p>“Hehe, what’s the point of these words.” Xia Wanjin was all smiles as he spread out his hands before his eyebrows lightly furrowed: “This current matter is indeed a little thorny. The Blood Wolf Gang and the Ghost Blade Sect have joined hands to go after the Lin Family’s mining lode. From the looks of it, this was rather well planned…”</p>
+ <p>“In the end, your grudge with the Blood Wolf Gang is my Thousand Gold Association’s responsibility. If they try anything funny, my Thousand Gold Association will definitely step forward to stop them, but, the Ghost Blade Sect will take the opportunity to deal with your Lin Family.”</p>
+ <p>“If it is truly no good, my Thousand Gold Association will release the Thousand Gold call and recruit troops to duke it out with the Blood Wolf Gang and the Ghost Blade Sect!” A cold light flitted across Xuan Su’s beautiful eyes as she spoke.</p>
+ <p>“Many thanks, however, we need not go that far. Our Lin Family can handle this Ghost Blade Sect.” Lin Dong chuckled as he replied.</p>
+ <p>“Lin Dong, this is no trifling matter, Gui Yan is known as the number one advanced Yuan Dan stage practitioner in Yan City. Even Wei Tong would not dare to cross him. Don’t force yourself!” Upon hearing these words, Xia Wanjin expression turned serious as he said.</p>
+ <p>Lin Dong slightly smiled, if this had happened a month before, perhaps he would truly be quite fearful of this so-called number one person among Yan City’s advanced Yuan Dan stage practitioners, but now...</p>
+ <p>“Are you the one who killed Wei Tong, Lin Dong?”</p>
+ <p>While Lin Dong was talking to Xia Wanjin and the rest, Gui Yan seemed to have recognized him. The latter exchanged a look with Yue Shan before asking in an indifferent manner.</p>
+ <p>After hearing his voice, Lin Dong also turned his head and stared at Gui Yan as the smile on the former’s face slowly vanished.</p>
+ <p>“Since you are able to make a decision, give us a clear-cut answer to today’s matter. As long as the Yang Yuan Stones mined by your Lin Family is escorted by my Ghost Blade Sect in the future, I guarantee that no one will dare to touch it!”</p>
+ <p>Gui Yan deviously gazed at Lin Dong, the smile on the former’s face was rather ugly: “Of course, if you are not willing, we will not force you. However, you should be careful in the future, all of the Yang Yuan Stones you mined will probably no longer be transported out…”</p>
+ <p>His last few words were clearly an undisguised threat, causing Lin Zhentian and the rest to turn white with anger.</p>
+ <p>“Sect leader Gui Yan, looks like you are very interested in my Lin Family’s Yang Yuan Stone mining lode, am I right?” Lin Dong calmly said.</p>
+ <p>“If your Lin Family had obediently stayed to lord over your Qingyang Town, perhaps, no one would find out. However, since you wishfully planned on establishing yourselves in Yan City, I will have to teach you about Yan City’s rules!” Gui Yan evilly laughed.</p>
+ <p>“These so-called rules are merely about whose fist is bigger. Sect leader Gui Yan, a prostitute does not need to carry a signboard right? We are all learned people here, why bother beating about the bush?” Lin Dong wore a fake smile as he said.</p>
+ <p>Upon hearing Lin Dong’s ruthless and mocking words, Gui Yan’s expression suddenly turned chilly. In Yan City, there were very few people who dared to talk to him this way...</p>
+ <p>“It seems like your Lin Family does not wish to adopt my Ghost Blade Sect’s and the Blood Wolf Gang’s kind proposal?”</p>
+ <p>“No need to trouble you, I will resolve my Lin Family’s transportation problem.” Lin Dong replied in an indifferent manner.</p>
+ <p>“Hehe, truly a heroic youngster. I, Yue Shan, have spent many years in Yan City, but, this it the first time that I’ve seen a youngster as wild as you.” Yue Shan icily smiled as a dark look slowly surfaced in his eyes.</p>
+ <p>“Lin Dong, don’t think that with the Thousand Gold Association’s support, you can do as you please in Yan City. Or else, you will have no chance to regret when you face the painful consequences.”</p>
+ <p>“Many thanks for sect leader Yue Shan’s teachings.” Lin Dong clasped his hands together as he earnestly said.</p>
+ <p>“Since the Lin Family does not appreciate our kindness, let these negotiations come to an end.” Yue Shan chuckled before turning to leave. As they saw his smiling expression, some of the ones who were more familiar with his temperament could not help but secretly sigh. They cast gazes of pity towards Lin Dong, this young one was indeed capable, however, he seemed to have a somewhat exaggerated opinion of his own abilities...</p>
+ <p>Gui Yan licked his lips and chuckled as he stared at Lin Dong, while planning to take his men and leave. He already intended to massacre the Lin Family after first going back to discuss with the Blood Wolf Gang.</p>
+ <p>“Wait.”</p>
+ <p>However, just as Gui Yan turned, Lin Dong once again spoke out.</p>
+ <p>“Yes? Did you change your mind?” Yue Shan and Gui Yan paused in their step as they sneered.</p>
+ <p>“The Ghost Blade Sect has stolen my Lin Family’s Yang Yuan Stones and injured both my father and first uncle. Did you really plan to leave like this?” Lin Dong cocked his head as he smiled.</p>
+ <p>When Lin Dong’s words left his mouth, the plaza immediately turned silent. One by one, astonished gazes turned towards the former. Although everyone knew that negotiations this time had already fallen apart, was this action of Lin Dong’s purposely provoking the Ghost Blade Sect? Did he not know that if he really enraged Gui Yan, would there be anyone from their Lin Family who was able to stop him?</p>
+ <p>As the implicated party, Gui Yan was likewise stunned. He did not expect that before he could find an excuse to make a move against the Lin Family, this Lin Dong would actually take the initiative to start something.</p>
+ <p>“Lin Dong!”</p>
+ <p>Xuan Su hastily said in a low voice: “Don’t be rash, we can return first to discuss this!”</p>
+ <p>Lin Zhentian and the rest looked to each other in dismay, however, they did not say anything in the end. They had quite a good amount of faith in Lin Dong and understood that Lin Dong was no fool, if he was not certain, he would never say these kind of words.</p>
+ <p>“The Blood Wolf Gang and the Ghost Blade Sect plans to chop my Lin Family to pieces. But due to the Thousand Gold Association, the Blood Wolf Gang will not make a move for the time being. They intend to use the Ghost Blade Sect to suppress my Lin Family, as for the Ghost Blade Sect, although they seem strong, most of their strength lies with Gui Yan. As long as I can defeat him, the Ghost Blade Sect will collapse in a single blow!” Lin Dong softly said.</p>
+ <p>“Gui Yan is not Wei Tong! Not only is that guy known as the number one advanced Yuan Dan stage expert, he is also the one who has the highest chance of advancing to the perfect Yuan Dan stage in the past few years!” Xuan Sun hurriedly said.</p>
+ <p>Lin Dong slightly smiled and did not explain.</p>
+ <p>“You can deal with Gui Yan?” Xia Wanjin’s eyes lightly twinkled as if he had realized something while he asked in a low voice.</p>
+ <p>“How is that possible!” Xuan Su interjected in alarm.</p>
+ <p>“I know what I’m doing. Don’t worry, I don’t take chances.” Lin Dong lightly smiled before slowly walking forward under the crowd's attentive gazes.</p>
+ <p>“Gui Yan, return all the Yang Yuan Stones to the Lin Family and apologize before everyone here. Perhaps, I will drop this matter.”</p>
+ <p>“Heh heh, you little bastard, it seems you’ve yet to wake up from your dreams.” Upon hearing Lin Dong’s words, Gui Yan’s face involuntarily twitched as he sinisterly said.</p>
+ <p>To one side, Yue Shan’s eyebrows lightly furrowed. Evidently, he did not expect that Lin Dong would do such a foolish thing. Such foolish words, did he think that just because he killed Wei Tong, his reputation had become so unfathomably high in Yan City?</p>
+ <p>“Sect leader Yue Shan, looks like we do not need to discuss this any further. Can I dispose of this brat now?” Gui Yan looked towards Yue Shan as he maliciously smiled.</p>
+ <p>As the leader of the Ghost Blade Sect, he was truly unable to endure how insolent this brat before him was!</p>
+ <p>“*Sigh*...”</p>
+ <p>Upon seeing the murderous look in Gui Yan’s eyes, Yue Shan secretly sneered in his heart. On the surface, he seemed to sigh helplessly as he spoke: “Lin Dong, you’ve caused the downfall of the Lin Family…”</p>
+ <p>“Chairman Xia, you should have nothing to say about this matter right?” As his words fell, Yue Shan looked towards Xia Wanjin as he casually asked.</p>
+ <p>“You!”</p>
+ <p>Xuan Su’s long, shapely eyebrows straightened, just as she was about to retort, Xia Wanjin stretched out a hand and stopped her. His gaze concentrated on Lin Dong, moments later, he slowly nodded and said: “Let this matter be settled by the Lin Family and the Ghost Blade Sect, the Thousand Gold Association and the Blood Wolf Gang shall not interfere!”</p>
+ <p>Upon hearing these words, Xuan Su was greatly alarmed. Just as she was about to speak, Xia Wanjin’s voice softly sounded out in her ears: “Believe in Lin Dong. He is not a reckless person.”</p>
+ <p>“Haha, naturally.”</p>
+ <p>After seeing that Xia Wanjin had actually agreed, Yue Shan was a little shocked. He felt that there was something fishy but he could not pinpoint what it was. Immediately, he chuckled and looked towards Gui Yan: “I shall let you settle this matter, take extra care!”</p>
+ <p>The last few words were heavily emphasized by Yue Shan and Gui Yan likewise understood as he sneered before slowly nodding his head. If he was able to finish off Lin Dong, the number one expert in the Lin Family, the Lin Family would fall apart!</p>
+ <p>Under the gazes of everyone present, Gui Yan strolled forward. Soon after, he cast a malicious gaze towards Lin Dong as a devious smile appeared: “Brat, today I will let you know that even if you have defeated Wei Tong, you are still a nobody in this Yan City!”</p>
+ <p>“Yan City is no place for a country bumpkin like you. It would be best that you quickly run back to Qingyang Town!”</p>
+ <p>Upon hearing these words, Lin Dong smiled as he slowly stretched out his hand.</p>
+ <p>“So much rubbish. Please, give me some pointers!”</p>
+ <p></p>
+ <hr>
+ <p></p> 
+ <a href="/novel/wu-dong-qian-kun/wdqk-chapter-147" class="chapter-nav"> Previous Chapter </a> 
+ <a href="/novel/wu-dong-qian-kun/wdqk-chapter-149" class="chapter-nav"> Next Chapter </a> 
+</div>
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+
+<div class="article-nav prev-next-wrap clearfix">
+    
+        <a href="/novel/wu-dong-qian-kun/wdqk-chapter-147/" class="pre-post btn btn-default" title='Chapter 147: Pieces of Crap'>
+            <i class="fa fa-angle-left fa-fw"></i><span class="hidden-lg">上一篇</span>
+            <span class="hidden-xs" style="display: inline-block;max-width: 180px;text-overflow: ellipsis;overflow: hidden;vertical-align: top;">Chapter 147: Pieces of Crap</span>
+        </a>
+    
+    
+        <a href="/novel/wu-dong-qian-kun/wdqk-chapter-149/" class="next-post btn btn-default" title='Chapter 149: Doing Battle with Gui Yan'>
+            <span class="hidden-lg">下一篇</span>
+            <span class="hidden-xs" style="display: inline-block;max-width: 180px;text-overflow: ellipsis;overflow: hidden;vertical-align: top;">Chapter 149: Doing Battle with Gui Yan</span><i class="fa fa-angle-right fa-fw"></i>
+        </a>
+    
+</div>
+
+
+    <div id="comments">
+        
+	
+    <div id="vcomments" class="valine"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+
+    <script>
+        new Valine({
+            av: AV,
+            el: '#vcomments',
+            appId: 'uFC9mlhO3Jd96bb4sRXWioWJ-gzGzoHsz',
+            appKey: '9tesfAyKxVDYSsnkWUl4rdt2',
+            placeholder: '说点什么吧',
+            notify: false,
+            verify: false,
+            avatar: 'mm',
+            meta: 'nick,mail'.split(','),
+            pageSize: '10',
+            path: window.location.pathname,
+            lang: ''.toLowerCase()
+        })
+    </script>
+
+
+    </div>
+
+
+
+
+
+                </main>
+                
+                    <aside id="article-toc" role="navigation" class="col-md-4 sidebar">
+    <div class="widget">
+        <h3 class="title">Table of Contents</h3>
+        
+            <p>None</p>
+        
+    </div>
+</aside>
+
+                
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+</footer>
+
+<a id="back-to-top" class="icon-btn hide">
+	<i class="fa fa-chevron-up"></i>
+</a>
+
+
+
+
+    <div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="busuanzi">
+    
+</div>
+
+            </div>
+            <div class="col-sm-12">
+                <span>Copyright &copy; 2019
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="/js/app.js?rev=@@hash"></script>
+
+</body>
+</html>
