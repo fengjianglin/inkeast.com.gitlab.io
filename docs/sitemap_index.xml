@@ -4,9 +4,6 @@
 <loc>https://inkeast.com/sitemap.xml</loc>
 </sitemap>
 <sitemap>
-<loc>https://inkeast.com/novel_sitemap/sitemap_1.xml</loc>
-</sitemap>
-<sitemap>
 <loc>https://inkeast.com/novel_sitemap/sitemap_2.xml</loc>
 </sitemap>
 <sitemap>
@@ -41,6 +38,9 @@
 </sitemap>
 <sitemap>
 <loc>https://inkeast.com/novel_sitemap/sitemap_rmji.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://inkeast.com/novel_sitemap/sitemap_skyfire-avenue.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://inkeast.com/novel_sitemap/sitemap_stellar-transformations.xml</loc>
