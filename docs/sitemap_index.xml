@@ -4,9 +4,6 @@
 <loc>https://inkeast.com/sitemap.xml</loc>
 </sitemap>
 <sitemap>
-<loc>https://inkeast.com/novel_sitemap/sitemap_2.xml</loc>
-</sitemap>
-<sitemap>
 <loc>https://inkeast.com/novel_sitemap/sitemap_7-killers.xml</loc>
 </sitemap>
 <sitemap>
@@ -47,6 +44,9 @@
 </sitemap>
 <sitemap>
 <loc>https://inkeast.com/novel_sitemap/sitemap_terror-infinity.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://inkeast.com/novel_sitemap/sitemap_the-charm-of-soul-pets.xml</loc>
 </sitemap>
 <sitemap>
 <loc>https://inkeast.com/novel_sitemap/sitemap_the-divine-elements.xml</loc>
