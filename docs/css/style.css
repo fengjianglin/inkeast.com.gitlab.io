@@ -458,13 +458,11 @@ pre {
 .post .post-media {
   position: relative;
   margin-right: 15px;
-  width: 220px;
   height: 160px;
   float: left;
   overflow: hidden;
 }
 .post .post-media img {
-  width: 100%;
   height: 100%;
 }
 .post .post-content .home-post-head {
