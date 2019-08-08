@@ -869,6 +869,10 @@ pre {
 .sidebar .widget ul li {
   list-style: none;
 }
+.sidebar .widget ul li.category-list-item {
+  display: inline-block;
+  margin-right: 16px;
+}
 .sidebar .widget ul li.archive-list-item {
   width: 50%;
   display: inline-block;
